@@ -5,8 +5,8 @@ import PropTypes from "prop-types";
 
 const Main = () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <video
+    <div style={{ textAlign: "center", marginTop: "12.5%"}}>
+      <img
         data-v-0362bbb6=""
         id="hero-video"
         alt="Ethereum.org - Light"
@@ -18,7 +18,8 @@ const Main = () => {
         loop="loop"
         muted="muted"
         class="mx-auto inline-block"
-      ></video>
+      ></img>
+      {/* <img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;"></img> */}
       </div>
   );
 };

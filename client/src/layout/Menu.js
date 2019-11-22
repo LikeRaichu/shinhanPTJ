@@ -30,7 +30,7 @@ const Menu = ({ auth: { isAuthenticated, loading, user }, logout }) => {
 
   return (
     <Navbar color="light" light expand="md">
-      <NavbarBrand href="/">JouJou</NavbarBrand>
+      <NavbarBrand href="/">RE:word</NavbarBrand>
       {!loading && (
         <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
       )}
