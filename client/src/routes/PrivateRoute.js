@@ -8,6 +8,7 @@ const PrivateRoute = ({
   auth: { isAuthenticated, loading },
   ...rest
 }) => (
+  <Switch>
   <Route
     {...rest}
     render={props =>
@@ -18,6 +19,7 @@ const PrivateRoute = ({
       )
     }
   />
+  </Switch>
 );
 
 PrivateRoute.propTypes = {

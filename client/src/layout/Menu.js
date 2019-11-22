@@ -10,6 +10,9 @@ const Menu = ({ auth: { isAuthenticated, loading, user }, logout }) => {
   const authLinks = (
     <Nav>
       <NavItem>
+        <NavLink href="/test/">test</NavLink>
+      </NavItem>
+      <NavItem>
         <Button color="link" onClick={logout}>
           Logout
         </Button>
