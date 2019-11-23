@@ -3,8 +3,6 @@
 
 # DevDocs - 개발 문서
 
-Joux2 Developer Documentation 쥬쥬 개발자 문서
-
 ## stack - 스택
 
 | Stack Table                        |                                                                         |
