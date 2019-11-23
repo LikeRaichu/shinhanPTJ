@@ -347,7 +347,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     ----------------------------*/
 .hero-section { background: linear-gradient(rgba(19, 19, 18, 0.3), rgba(19, 19, 18, 0.3), rgba(19, 19, 18, 0.3)), url("../images/hero-img.jpg") no-repeat center; height: 1000px;}
 .hero-caption { margin-top: 100px; margin-bottom: 50px; background-color: #262626; }
-.hero-title { font-size: 50px; color: #fff; line-height: 24px; font-weight: 600; text-transform: uppercase; }
+.hero-title { font-size: 50px; color: #fff; line-height: 48px; font-weight: 600; text-transform: uppercase; letter-spacing:2px }
 .hero-text { font-size: 16px; color: #acacac; margin-bottom: 50px; line-height: 26px; }
 .navigation 
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }

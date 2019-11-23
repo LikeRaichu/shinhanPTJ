@@ -24,6 +24,6 @@ const givePoint = () => {
     return pointAll;
     
 }
-    console.log(originalPoint);
+    console.log(pointAll);
     punish();
 }

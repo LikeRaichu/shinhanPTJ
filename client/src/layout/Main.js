@@ -73,7 +73,7 @@ const Main = () => {
               <div className="hero-caption pinside50">
                 <h3 className="text-white mb20">서바이벌 리워드형 인슈어 서비스</h3>
                 <h1 className="colorb hero-title mb30 ">Re:word Ground</h1>
-                <p className="hero-text">We offer free 3 day gym trial, Come and have a complimentary trial session at your favourite fitness the gym club, our ultimate goal is to make you as fit and strong as only possible.</p>
+                <p className="hero-text">우리 이제 아픈 후에 받지 말고 미리받아 아프지 말아요.</p>
                 <a href="/list" className="btn btn-default">도전하기</a>
               </div>
             </div>
