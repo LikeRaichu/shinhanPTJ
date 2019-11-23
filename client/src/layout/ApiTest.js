@@ -1,7 +1,10 @@
 import React from "react";
-import { forTestIns } from "../actions/apiCall";
+import { forTestIns,
+         callTransactionByDate,
+         debitUseForDomestic,
+         insContractDetail,
+         creditUseForDomestic } from "../actions/apiCall";
 import crypto from "crypto"
-var AES = require("crypto-js/aes");
 // import SHA256 from "crypto-js/sha256";
 
 
@@ -26,6 +29,10 @@ const ApiTest = () => {
         console.log(crypTes);
         // const { crypTes } = values;
         forTestIns(crypTes);
+        callTransactionByDate();
+        debitUseForDomestic();
+        insContractDetail(crypTes);
+        creditUseForDomestic();
     }
 
     
