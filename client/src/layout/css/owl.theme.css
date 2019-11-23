@@ -3,9 +3,7 @@
 *	v1.3.3
 */
 
-.owl-theme .owl-controls{
-	 
-}
+.owl-theme .owl-controls
 
 /* Styling Next and Prev buttons */
 
@@ -78,7 +76,7 @@
 /* preloading images */
 .owl-item.loading{
 	min-height: 150px;
-	background: url(<AjaxLoader.gif>) no-repeat center center
+	background: url(<./AjaxLoader.gif>) no-repeat center center
 }
 
 @media only screen and (max-width: 768px) {
