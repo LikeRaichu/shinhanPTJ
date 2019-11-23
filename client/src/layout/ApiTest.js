@@ -25,7 +25,7 @@ const ApiTest = () => {
         let crypTes = crypto.createHash('sha1').update(values.rdreNo).digest('base64');
         console.log(crypTes);
         // const { crypTes } = values;
-        forTestIns( {crypTes} );
+        forTestIns(crypTes);
     }
 
     
